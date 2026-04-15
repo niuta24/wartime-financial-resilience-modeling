@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Data-specific ignores for Syvkova Thesis ===
+# Proprietary financials from YouControl Market [cite: 321]
+# and raw geospatial conflict data from ACLED [cite: 300, 303]
+*.xlsx
+*.xls
+*.csv
+
+# Geospatial data files 
+# geoBoundaries-UKR-ADM1_simplified.geojson
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.7z
